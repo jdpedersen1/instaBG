@@ -1,5 +1,7 @@
 # InstaBG - A Fast and Intuitive Wallpaper Setter
 
+![screenshot](screenshot.png)
+
 InstaBG is a simple yet powerful tool that allows you to quickly browse and set wallpapers using `fzf` with image previews. It leverages `kitty` for image rendering and `xwallpaper` for setting the wallpaper, providing a seamless and efficient experience.
 
 ## Features
