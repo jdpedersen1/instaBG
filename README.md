@@ -38,11 +38,11 @@ chmod +x instaBG.sh
 
 Before running the script, you may need to modify the `PAPERS` and `DIR` variables inside `instaBG.sh` to point to your wallpaper directory.
 
-Example:
+Example: (Must follow example format or image preview will not work as expected)
 
 ```bash
-PAPERS="$HOME/Pictures/Wallpapers"
-DIR="$PAPERS"
+PAPERS="$HOME/Pictures/Wallpapers/*"
+DIR="$HOME/Pictures/Wallpapers"
 ```
 
 ## Usage
@@ -57,6 +57,6 @@ Use `fzf` to browse and select a wallpaper. Once selected, it will be applied im
 
 ## License
 
-This project is released under the MIT License.
+This project is released under the GNU License.
 
 
